@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVU FootWears</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="http://fonts.gstatic.com">
+    <link href="http://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <img src="" alt="">
+            <div class="name">
+                <h1>WELCOME TO AVU FOOTWEARS</h1>
+            </div>
+            <form>
+                <input type="search" name="search" placeholder="Search..">
+            </form>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"style="color:rgb(247, 240, 240);font-weight:bold">Close</i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="design.html">DESIGN</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="main">
+            <figure>
+                <div class="slider">
+                    <img src="images/IMG-20230720-WA0076.jpg" alt="">
+                </div>
+                <div class="slider">
+                    <img src="images/IMG-20230721-WA0002.jpg" alt="">
+                </div>
+                <div class="slider">
+                    <img src="images/IMG-20230721-WA0025.jpg" alt="">
+                </div>
+                <div class="slider">
+                    <img src="images/IMG-20230721-WA0026.jpg" alt="">
+                </div>
+                <div class="slider">
+                    <img src="images/IMG-20230721-WA0042.jpg"">
+                </div>
+            </figure>
+        </div>
+        <div class="form">
+            <h2>LOGIN HERE</h2>
+            <input type="email" name="email" placeholder="ENTER EMAIL">
+            <input type="password" name="" placeholder="ENTER PASSWORD">
+            <button class="btnn"><a href="">Login</a></button>
+            <p class="link">Dont have an account<br>
+            <a href="">Sign Up</a></p>
+            <p class="liw">Login with</p>
+        </div>
+
+        <div class="row">
+            <div class="design-col">
+                <h3>NEW MODEL HILL FOR FEMALE</h3>
+                <img src="images/IMG-20230804-WA0039.jpg" alt="">
+                <p>We are providing the latest and quality high hills
+                    <br>Designed for our beautiful ladies.
+                    <br>there are different colors you can try with us
+                    <br>which are eye catchy for any event you are wearing
+                    <br>it to. This product is relying that it has a very
+                    <br>good quality of Different size from 37-42
+                    <br>of variety of price that you can afford, depending
+                    <br>on your size. We gurantee you the best shopping with us.
+                </p>
+                <button class="btnn">Shop now</button>
+            </div>
+            <div class="design-col">
+                <h3>WHITE MODERN HILLS</h3>
+                <img src="images/IMG-20230804-WA0040.jpg" alt="">
+                <p>We are providing the latest and quality high hills
+                    <br>Designed for our beautiful ladies.
+                    <br>there are different colors you can try with us
+                    <br>which are eye catchy for any event you are wearing
+                    <br>it to. This product is relying that it has a very
+                    <br>good quality of Different size from 37-42
+                    <br>of variety of price that you can afford, depending
+                    <br>on your size. We gurantee you the best shopping with us.
+                </p>
+                <button class="btnn">Shop now</button>
+            </div>
+            <div class="design-col">
+                <h3>LADIES MULTI-COLOURED SNEAKERS</h3>
+                <img src="images/IMG-20230804-WA0038.jpg" alt="">
+                <p>We are providing the latest and quality high hills
+                    <br>Designed for our beautiful ladies.
+                    <br>there are different colors you can try with us
+                    <br>which are eye catchy for any event you are wearing
+                    <br>it to. This product is relying that it has a very
+                    <br>good quality of Different size from 37-42
+                    <br>of variety of price that you can afford, depending
+                    <br>on your size. We gurantee you the best shopping with us.
+                </p>
+                <button class="btnn">Shop now</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        const hello = 'You Are Welcome To AVU FOOTWEARS';
+        setTimeout(() => {
+            alert(hello)
+        }, 1000);
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
